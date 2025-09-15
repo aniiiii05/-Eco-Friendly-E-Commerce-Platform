@@ -1,0 +1,64 @@
+/* src/pages/Profile.css */
+.profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details,
+  .order-history {
+    margin-bottom: 20px;
+  }
+  
+  .profile-details form div,
+  .profile-details div {
+    margin-bottom: 10px;
+  }
+  
+  .profile-details label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .profile-details input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .profile-details button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-details button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-history th,
+  .order-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-history th {
+    background-color: #f2f2f2;
+  }
+  
